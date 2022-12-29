@@ -6,7 +6,7 @@ I'm a digital product development expert with a background in politics and inter
 # What am I doing now?
 
 As a technologist, we have the power to effect change - for better or for worse. Technology is evolving at a rapid pace and can completely transform the world we live in. However, it can be difficult for thinkers, ethicists, and politicians to understand and regulate technology, as it often moves too fast for them to keep up. That's why we must participate in technology development rather than trying to catch up after the fact.
-I recently had the opportunity to study big data at one of the top engineering schools in the world. I'll share more about my journey through my blog and GitHub in 2023, so stay tuned.
+I recently had the opportunity to study big data at one of the top engineering schools in the world. I'll share more about my journey through my [blog](https://hghalebi.github.io/Blog/) and [GitHub](https://github.com/hghalebi) in 2023, so stay tuned.
 
 # Contact me
 I'm always happy to have a conversation about big data and AI technology, especially if it can help us better understand social and political change or if it can be developed into a tech product or analysis that positively impacts the world. I'll be using the Blog repository as my blog, so check back for updates.
@@ -15,4 +15,12 @@ I'm always happy to have a conversation about big data and AI technology, especi
 ---
 
 # Connect with Me on Social Media
+
+
+* [https://github.com/hghalebi](https://github.com/hghalebi)
+* [https://www.linkedin.com/in/hamze/](https://www.linkedin.com/in/hamze/)
+* [https://twitter.com/Hamzeml](https://twitter.com/Hamzeml)
+* [https://hghalebi.github.io/Blog/](https://hghalebi.github.io/Blog/)
+
+
 
