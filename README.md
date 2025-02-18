@@ -1,5 +1,4 @@
-If you are passionate about the intersection of finance, technology, and social impact, I would love to hear from you: hamze [ at ] welcome [ dot ] place
-
+Multi-agent network architect driven by a vision where systems operate like a thriving city—dynamic, self-organizing, and capable of tackling complex tasks autonomously. I design decentralized, intelligent networks that integrate smart non bilogic agents, transcending traditional committee structures to deliver agile, real-world AI solutions
 
 ---
 
