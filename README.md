@@ -5,10 +5,15 @@
   width="100%"
 />
 
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2600&pause=900&color=FF6B00&center=true&vCenter=true&width=900&lines=Typed+AI+Systems;Rust+Backends+for+Regulated+Workflows;Human-in-the-loop+GenAI;Audit+Trails+%3E+Vibes;No+Demo+Theatre"
+  alt="Typing SVG"
+/>
+
 <h3>CTO / AI Systems Architect</h3>
 
 <p>
-  I build typed, observable, auditable AI systems for regulated workflows.
+  I build <strong>typed</strong>, <strong>observable</strong>, <strong>auditable</strong> AI systems for regulated workflows.
 </p>
 
 <p>
@@ -95,7 +100,10 @@ AI systems become useful in serious workflows only when they are:
 <h3>Learning in public</h3>
 
 <p>
-  I run the <a href="https://github.com/hghalebi/ai-reading-club"><strong>AI Reading Club</strong></a>:
+  I run the
+  <a href="https://github.com/hghalebi/ai-reading-club">
+    <strong>AI Reading Club</strong>
+  </a>:
   transformers, attention, BERT, generation, interpretability, scaling, fine-tuning, and alignment.
 </p>
 
@@ -113,12 +121,22 @@ AI systems become useful in serious workflows only when they are:
   alt="Top Languages"
 />
 
+<br />
+
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=hghalebi&theme=github-compact&hide_border=true"
+  alt="GitHub Activity Graph"
+/>
+
 </div>
 
 ---
 
 <div align="center">
 
-<strong>Building auditable AI systems for serious workflows.</strong>
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+auditable+AI+systems+for+serious+workflows.;The+model+can+be+magical.+The+system+must+be+boring."
+  alt="Footer Typing SVG"
+/>
 
 </div>
