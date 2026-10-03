@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+<title id="title">Hamze Ghalebi — engineering reliable AI workflows</title>
+<desc id="desc">An illustrative workflow: validate typed inputs, persist a Postgres checkpoint, authorize scoped agent tools, recover from a tool timeout with bounded retries and idempotency keys, verify outcomes, and correlate traces. This is an architecture illustration, not live telemetry or a benchmark.</desc>
+<style>
+text{white-space:pre;font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}
+.head{font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+@media(prefers-reduced-motion:reduce){.motion{display:none}}
+</style>
+<defs>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#1b2633" stroke-width=".65"/></pattern>
+  <linearGradient id="surface" x2="1" y2="1"><stop stop-color="#111923"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+  <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#8b6840" stroke-width="1.2"/></marker>
+</defs>
+<rect x="1" y="1" width="958" height="438" rx="16" fill="url(#surface)" stroke="#303b48"/>
+<rect x="2" y="2" width="956" height="296" rx="15" fill="url(#grid)" opacity=".55"/>
+<path d="M28 24v16" stroke="#ff7b43" stroke-width="3"/>
+<text x="41" y="37" fill="#a3adba" font-size="12" letter-spacing="1.2">HAMZE GHALEBI / FORWARD-DEPLOYED AI</text>
+<rect x="774" y="21" width="159" height="24" rx="12" fill="#19212c" stroke="#364150"/>
+<text x="853.5" y="37" text-anchor="middle" fill="#a3adba" font-size="10.5" letter-spacing=".6">ARCHITECTURE DEMO</text>
+<text class="head" x="28" y="79" fill="#f0f6fc" font-size="29" font-weight="700" letter-spacing="-.7">Ship the workflow. Own the failure modes.</text>
+<text x="29" y="105" fill="#9da9b8" font-size="13">Contracts. Durable state. Controlled tools. Evidence.</text>
+<path d="M108 134H852" fill="none" stroke="#334252" stroke-width="2"/>
+
+<path d="M108 134V150" stroke="#334252" stroke-width="2"/>
+<circle cx="108" cy="134" r="4" fill="#53677e"/>
+<rect x="24" y="150" width="168" height="91" rx="9" fill="#101823" stroke="#334252"/>
+
+<g class="motion" opacity="0"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.133333;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><rect x="24" y="150" width="168" height="91" rx="9" fill="#142536" stroke="#79c0ff"/><circle cx="108" cy="134" r="5" fill="#79c0ff"/></g>
+<text x="37" y="172" fill="#ff9b73" font-size="10">01</text>
+<text x="37" y="193" fill="#e6edf3" font-size="14" font-weight="700">CONTRACT</text>
+<text x="37" y="212" fill="#abb9c9" font-size="11.5">Typed inputs</text>
+<text x="37" y="229" fill="#829bb6" font-size="10.5">Rust / Axum</text>
+<path d="M294 134V150" stroke="#334252" stroke-width="2"/>
+<circle cx="294" cy="134" r="4" fill="#53677e"/>
+<rect x="210" y="150" width="168" height="91" rx="9" fill="#101823" stroke="#334252"/>
+
+<g class="motion" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.133333;0.266667;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><rect x="210" y="150" width="168" height="91" rx="9" fill="#142536" stroke="#79c0ff"/><circle cx="294" cy="134" r="5" fill="#79c0ff"/></g>
+<g class="motion" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.516667;0.594444;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><rect x="210" y="150" width="168" height="91" rx="9" fill="#142536" stroke="#79c0ff"/><circle cx="294" cy="134" r="5" fill="#79c0ff"/></g>
+<text x="223" y="172" fill="#ff9b73" font-size="10">02</text>
+<text x="223" y="193" fill="#e6edf3" font-size="14" font-weight="700">CHECKPOINT</text>
+<text x="223" y="212" fill="#abb9c9" font-size="11.5">Durable jobs</text>
+<text x="223" y="229" fill="#829bb6" font-size="10.5">PostgreSQL</text>
+<path d="M480 134V150" stroke="#334252" stroke-width="2"/>
+<circle cx="480" cy="134" r="4" fill="#53677e"/>
+<rect x="396" y="150" width="168" height="91" rx="9" fill="#101823" stroke="#334252"/>
+
+<g class="motion" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.266667;0.400000;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><rect x="396" y="150" width="168" height="91" rx="9" fill="#142536" stroke="#79c0ff"/><circle cx="480" cy="134" r="5" fill="#79c0ff"/></g>
+<g class="motion" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.594444;0.672222;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><rect x="396" y="150" width="168" height="91" rx="9" fill="#142536" stroke="#79c0ff"/><circle cx="480" cy="134" r="5" fill="#79c0ff"/></g>
+<g class="motion" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.400000;0.516667;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><rect x="396" y="150" width="168" height="91" rx="9" fill="#2b2016" stroke="#ffb454"/><circle cx="480" cy="134" r="5" fill="#ffb454"/></g>
+<text x="409" y="172" fill="#ff9b73" font-size="10">03</text>
+<text x="409" y="193" fill="#e6edf3" font-size="14" font-weight="700">EXECUTE</text>
+<text x="409" y="212" fill="#abb9c9" font-size="11.5">Scoped tools</text>
+<text x="409" y="229" fill="#829bb6" font-size="10.5">Rig / Mastra</text>
+<path d="M666 134V150" stroke="#334252" stroke-width="2"/>
+<circle cx="666" cy="134" r="4" fill="#53677e"/>
+<rect x="582" y="150" width="168" height="91" rx="9" fill="#101823" stroke="#334252"/>
+
+<g class="motion" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.672222;0.822222;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><rect x="582" y="150" width="168" height="91" rx="9" fill="#142536" stroke="#7ee787"/><circle cx="666" cy="134" r="5" fill="#7ee787"/></g>
+<text x="595" y="172" fill="#ff9b73" font-size="10">04</text>
+<text x="595" y="193" fill="#e6edf3" font-size="14" font-weight="700">VERIFY</text>
+<text x="595" y="212" fill="#abb9c9" font-size="11.5">Rules + evaluation</text>
+<text x="595" y="229" fill="#829bb6" font-size="10.5">Human oversight</text>
+<path d="M852 134V150" stroke="#334252" stroke-width="2"/>
+<circle cx="852" cy="134" r="4" fill="#53677e"/>
+<rect x="768" y="150" width="168" height="91" rx="9" fill="#101823" stroke="#334252"/>
+
+<g class="motion" opacity="0"><animate attributeName="opacity" values="0;1;1" keyTimes="0;0.822222;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><rect x="768" y="150" width="168" height="91" rx="9" fill="#142536" stroke="#7ee787"/><circle cx="852" cy="134" r="5" fill="#7ee787"/></g>
+<text x="781" y="172" fill="#ff9b73" font-size="10">05</text>
+<text x="781" y="193" fill="#e6edf3" font-size="14" font-weight="700">OPERATE</text>
+<text x="781" y="212" fill="#abb9c9" font-size="11.5">Trace + recover</text>
+<text x="781" y="229" fill="#829bb6" font-size="10.5">OTel / CI/CD</text>
+<path d="M480 241V263H294V243" fill="none" stroke="#8b6840" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+<text x="29" y="282" fill="#8e9cac" font-size="11">FAILURE IS A STATE, NOT A SURPRISE.</text>
+<text x="934" y="282" text-anchor="end" fill="#c8a278" font-size="11">checkpoint + bounded retry + idempotency</text>
+<g class="motion"><circle cy="134" r="4" fill="#79c0ff"><animate attributeName="cx" values="108;108;294;294;480;480;666;666;852;852" keyTimes="0;.10;.133;.24;.267;.67;.71;.80;.85;1" dur="18s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" keyTimes="0;.4;.672222" calcMode="discrete" dur="18s" repeatCount="indefinite"/><animate attributeName="fill" values="#79c0ff;#7ee787" keyTimes="0;.672222" calcMode="discrete" dur="18s" repeatCount="indefinite"/></circle></g>
+<g class="motion" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.516667;.594444;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><circle r="4" fill="#ffb454"><animateMotion path="M480 241V263H294V243" keyPoints="0;0;1;1" keyTimes="0;.516667;.594444;1" calcMode="linear" dur="18s" repeatCount="indefinite"/></circle></g>
+<rect x="24" y="299" width="912" height="96" rx="9" fill="#090e15" stroke="#2c3745"/>
+<path d="M24 327H936" stroke="#263241"/>
+<circle cx="40" cy="313" r="3" fill="#ff9b73"/>
+<circle cx="51" cy="313" r="3" fill="#7b8da3"/>
+<circle cx="62" cy="313" r="3" fill="#7b8da3"/>
+<text x="81" y="317" fill="#8395ab" font-size="11">remolab / illustrative workflow.trace</text>
+<text x="39" y="352" fill="#79c0ff" font-size="12.5">input      parse into validated domain types</text>
+<text x="39" y="378" fill="#9baabd" font-size="12.5">boundary   malformed data never reaches a tool</text>
+
+<g class="motion" opacity="0"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.133333;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/>
+<rect x="700" y="303" width="222" height="20" fill="#090e15"/>
+<circle cx="848" cy="313" r="3" fill="#79c0ff"/>
+<text x="918" y="317" text-anchor="end" fill="#79c0ff" font-size="11">CONTRACT</text>
+<rect x="34" y="332" width="892" height="56" fill="#090e15"/>
+<text x="39" y="352" fill="#79c0ff" font-size="12.5">input      parse into validated domain types</text>
+<text x="39" y="378" fill="#abb9c9" font-size="12.5">boundary   malformed data never reaches a tool</text>
+</g>
+<g class="motion" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.133333;0.266667;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/>
+<rect x="700" y="303" width="222" height="20" fill="#090e15"/>
+<circle cx="834" cy="313" r="3" fill="#79c0ff"/>
+<text x="918" y="317" text-anchor="end" fill="#79c0ff" font-size="11">CHECKPOINT</text>
+<rect x="34" y="332" width="892" height="56" fill="#090e15"/>
+<text x="39" y="352" fill="#79c0ff" font-size="12.5">state      persist the job before execution</text>
+<text x="39" y="378" fill="#abb9c9" font-size="12.5">storage    durable progress outside the model</text>
+</g>
+<g class="motion" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.266667;0.400000;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/>
+<rect x="700" y="303" width="222" height="20" fill="#090e15"/>
+<circle cx="855" cy="313" r="3" fill="#79c0ff"/>
+<text x="918" y="317" text-anchor="end" fill="#79c0ff" font-size="11">EXECUTE</text>
+<rect x="34" y="332" width="892" height="56" fill="#090e15"/>
+<text x="39" y="352" fill="#79c0ff" font-size="12.5">policy     authorize a narrowly scoped tool call</text>
+<text x="39" y="378" fill="#abb9c9" font-size="12.5">control    human approval for sensitive actions</text>
+</g>
+<g class="motion" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.400000;0.516667;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/>
+<rect x="700" y="303" width="222" height="20" fill="#090e15"/>
+<circle cx="820" cy="313" r="3" fill="#ffb454"/>
+<text x="918" y="317" text-anchor="end" fill="#ffb454" font-size="11">TOOL TIMEOUT</text>
+<rect x="34" y="332" width="892" height="56" fill="#090e15"/>
+<text x="39" y="352" fill="#ffb454" font-size="12.5">failure    upstream tool times out</text>
+<text x="39" y="378" fill="#abb9c9" font-size="12.5">decision   retry only a classified, retryable failure</text>
+</g>
+<g class="motion" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.516667;0.672222;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/>
+<rect x="700" y="303" width="222" height="20" fill="#090e15"/>
+<circle cx="855" cy="313" r="3" fill="#ffb454"/>
+<text x="918" y="317" text-anchor="end" fill="#ffb454" font-size="11">RECOVER</text>
+<rect x="34" y="332" width="892" height="56" fill="#090e15"/>
+<text x="39" y="352" fill="#ffb454" font-size="12.5">resume     load the saved execution checkpoint</text>
+<text x="39" y="378" fill="#abb9c9" font-size="12.5">safety     bounded retry + the same idempotency key</text>
+</g>
+<g class="motion" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.672222;0.822222;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/>
+<rect x="700" y="303" width="222" height="20" fill="#090e15"/>
+<circle cx="862" cy="313" r="3" fill="#7ee787"/>
+<text x="918" y="317" text-anchor="end" fill="#7ee787" font-size="11">VERIFY</text>
+<rect x="34" y="332" width="892" height="56" fill="#090e15"/>
+<text x="39" y="352" fill="#7ee787" font-size="12.5">validate   check output contracts and domain rules</text>
+<text x="39" y="378" fill="#abb9c9" font-size="12.5">release    evaluation evidence before promotion</text>
+</g>
+<g class="motion" opacity="0"><animate attributeName="opacity" values="0;1;1" keyTimes="0;0.822222;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/>
+<rect x="700" y="303" width="222" height="20" fill="#090e15"/>
+<circle cx="855" cy="313" r="3" fill="#7ee787"/>
+<text x="918" y="317" text-anchor="end" fill="#7ee787" font-size="11">OPERATE</text>
+<rect x="34" y="332" width="892" height="56" fill="#090e15"/>
+<text x="39" y="352" fill="#7ee787" font-size="12.5">observe    correlate model calls, tools and outcomes</text>
+<text x="39" y="378" fill="#abb9c9" font-size="12.5">handover   traces, runbooks and a recovery path</text>
+</g>
+<text x="29" y="421" fill="#a3b3c7" font-size="11.5">RUST + TYPESCRIPT</text>
+<text x="233" y="421" fill="#647892" font-size="11.5">/</text>
+<text x="260" y="421" fill="#a3b3c7" font-size="11.5">RIG + MASTRA</text>
+<text x="425" y="421" fill="#647892" font-size="11.5">/</text>
+<text x="452" y="421" fill="#a3b3c7" font-size="11.5">POSTGRES</text>
+<text x="574" y="421" fill="#647892" font-size="11.5">/</text>
+<text x="601" y="421" fill="#a3b3c7" font-size="11.5">OPENTELEMETRY</text>
+<text x="767" y="421" fill="#647892" font-size="11.5">/</text>
+<text x="794" y="421" fill="#a3b3c7" font-size="11.5">NIXOS + CI/CD</text>
+</svg>
