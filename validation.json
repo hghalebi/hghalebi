@@ -1,0 +1,15 @@
+{
+  "gif": {
+    "frames": 72,
+    "duration_seconds": 18,
+    "bytes": 94675,
+    "encoded_frames": 24,
+    "encoded_duration_ms": 18000
+  },
+  "html_img_animated": true,
+  "mobile_no_horizontal_overflow": true,
+  "reduced_motion_static": true,
+  "github_commit": "8b2318f10df3f354ce47343b1ae89bd7591c3eb8",
+  "github_blobs_match_local_assets": true,
+  "live_github_visual_inspection": false
+}
