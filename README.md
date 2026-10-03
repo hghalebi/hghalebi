@@ -70,6 +70,14 @@ That background shapes how I build: understand the user's job, integrate with th
 
 These are books, reference implementations and tools, not a list of client deployments. Each repository has its own scope and license.
 
+## Current technology focus
+
+AI is moving from chat interfaces toward systems that can take useful action. My current work explores how to make that shift dependable:
+
+- **Agentic engineering:** bounded coding-agent changes, verification gates and recoverable deployments in the delivery workflow.
+- **Production agents:** durable, tool-using workflows with typed boundaries, evaluation, human oversight and operational visibility.
+- **Human-centered AI:** context-aware support, with product learning grounded in whether it genuinely helps the people using it.
+
 ## Currently building
 
 **[Dayeh](https://dayeh.io/)** — an early-stage, proactive AI parenting companion. Building context-aware support and learning which behaviours genuinely help parents. TypeScript + Mastra.
