@@ -1,142 +1,110 @@
 <div align="center">
 
-<img
-  src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=220&section=header&text=Hamze%20Ghalebi&fontSize=64&animation=fadeIn&fontAlignY=36&desc=CTO%20%7C%20Rust%20%7C%20Production%20GenAI%20%7C%20Regulated%20Systems&descAlignY=56&descAlign=50"
-  width="100%"
-/>
+<h1>Hamze Ghalebi</h1>
+<h3>Forward-Deployed AI Engineer · AI Systems Architect</h3>
 
-<img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2600&pause=900&color=FF6B00&center=true&vCenter=true&width=900&lines=Typed+AI+Systems;Rust+Backends+for+Regulated+Workflows;Human-in-the-loop+GenAI;Audit+Trails+%3E+Vibes;No+Demo+Theatre"
-  alt="Typing SVG"
-/>
-
-<h3>CTO / AI Systems Architect</h3>
+<p><strong>I turn AI prototypes into reliable systems your team can use.</strong></p>
 
 <p>
-  I build <strong>typed</strong>, <strong>observable</strong>, <strong>auditable</strong> AI systems for regulated workflows.
+  Hands-on delivery of AI agents, document workflows and internal tools.<br />
+  Connected to your data, integrated with your software, measured against a real business outcome.
 </p>
 
 <p>
-  <strong>Rust · Axum · Tokio · Postgres · OpenTelemetry · RAG · Agents · KYC/KYB/AML</strong>
-</p>
-
-<p>
-  <em>AI prepares. Humans validate. Audit trails prove.</em>
-</p>
-
-<p>
+  <a href="mailto:hg@remolab.fr?subject=AI%20engineering%20project">
+    <img src="https://img.shields.io/badge/Discuss_a_project-FF6B00?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Discuss an AI engineering project by email" />
+  </a>
   <a href="https://www.linkedin.com/in/hamze/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge" alt="Connect with Hamze on LinkedIn" />
   </a>
-  <a href="https://github.com/hghalebi/ai-reading-club">
-    <img src="https://img.shields.io/badge/AI%20Reading%20Club-LLM%20Papers-FF6B00?style=for-the-badge&logo=github" />
-  </a>
-  <a href="https://ainov.io">
-    <img src="https://img.shields.io/badge/Studio-AiNOV.IO-FF4B4B?style=for-the-badge&logo=google-chrome" />
+  <a href="https://remolab.fr/">
+    <img src="https://img.shields.io/badge/Remolab-Visit_the_studio-24292F?style=for-the-badge" alt="Visit Remolab" />
   </a>
 </p>
 
-</div>
-
----
-
-<h3>Systems I care about</h3>
-
-<pre>
-typed workflows     > prompt spaghetti
-domain models       > loose JSON blobs
-audit events        > vague logs
-evaluation          > vibes
-human validation    > blind automation
-observability       > guessing
-permissions         > agent free-for-all
-boring reliability  > demo theatre
-</pre>
-
-<h3>Current surface area</h3>
-
-<table>
-  <tr>
-    <td><strong>Backend</strong></td>
-    <td>Rust · Axum · Tokio · Postgres · SQL · Background Workers</td>
-  </tr>
-  <tr>
-    <td><strong>AI Systems</strong></td>
-    <td>RAG · Structured Outputs · Agents · LLM Orchestration · Evaluation</td>
-  </tr>
-  <tr>
-    <td><strong>Ops</strong></td>
-    <td>OpenTelemetry · Tracing · CI/CD · Docker · Cost / Latency Control</td>
-  </tr>
-  <tr>
-    <td><strong>Domains</strong></td>
-    <td>Fintech · KYC · KYB · AML · LCB-FT · Regulated Automation</td>
-  </tr>
-</table>
-
-<h3>Selected work</h3>
-
-<ul>
-  <li><strong>Remolab</strong> — venture studio infrastructure for AI, fintech, and deep-tech products.</li>
-  <li><strong>Welcome Place</strong> — fintech and onboarding infrastructure for migrants and newcomers in Europe.</li>
-  <li><strong>CaseReady / RavenKYC</strong> — supervised AI for blocked KYC/KYB/AML/LCB-FT cases.</li>
-  <li><strong>AI Reading Club</strong> — foundational LLM papers, discussed from research to production.</li>
-  <li><strong>Rust AI Systems</strong> — ML, transformers, backend systems, and AI architecture in Rust.</li>
-</ul>
-
-<h3>Operating thesis</h3>
-
-<pre>
-AI systems become useful in serious workflows only when they are:
-
-  typed
-  observable
-  permissioned
-  evaluated
-  auditable
-  boring enough to trust
-</pre>
-
-<h3>Learning in public</h3>
-
-<p>
-  I run the
-  <a href="https://github.com/hghalebi/ai-reading-club">
-    <strong>AI Reading Club</strong>
-  </a>:
-  transformers, attention, BERT, generation, interpretability, scaling, fine-tuning, and alignment.
-</p>
-
-<div align="center">
+<p>Paris · Remote collaboration · English / French · Consulting &amp; embedded delivery</p>
 
 <img
-  src="https://github-readme-stats.vercel.app/api?username=hghalebi&show_icons=true&theme=radical&hide_border=true&count_private=true"
-  alt="GitHub Stats"
-/>
-
-<br />
-
-<img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=hghalebi&layout=compact&theme=radical&hide_border=true"
-  alt="Top Languages"
-/>
-
-<br />
-
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=hghalebi&theme=github-compact&hide_border=true"
-  alt="GitHub Activity Graph"
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;size=17&amp;duration=3000&amp;pause=1400&amp;color=FF6B00&amp;center=true&amp;vCenter=true&amp;width=760&amp;height=32&amp;lines=From+first+workflow+to+production.;Useful+to+users.+Understandable+to+operators.;Evaluated.+Observable.+Recoverable."
+  width="760"
+  alt="From first workflow to production. Evaluated, observable, recoverable."
 />
 
 </div>
 
 ---
 
-<div align="center">
+## Where I can help
 
-<img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+auditable+AI+systems+for+serious+workflows.;The+model+can+be+magical.+The+system+must+be+boring."
-  alt="Footer Typing SVG"
-/>
+| What is blocking you? | What we work on |
+| --- | --- |
+| **The AI prototype works. It is not ready to ship.** | Build a production workflow around your agents, RAG or document processing: API and data integration, evaluation, access controls, human review and deployment. |
+| **The AI system is unreliable, expensive or hard to debug.** | Diagnose failures. Add structured outputs, tracing, bounded retries, recovery and regression tests. Measure quality, latency and cost per completed task. |
+| **You need someone to own delivery, not just recommend tools.** | Embed with your product and engineering team: scope the workflow, design the architecture, write the code, support rollout and hand over an operable system. |
 
-</div>
+**Start with one valuable workflow.** Agree on what success means, ship a narrow slice, and expand based on evidence. The deliverable is working software, evaluation evidence and an operational handover.
+
+## Why I work this way
+
+I am **CTO at [Remolab](https://remolab.fr/about)**. Previously, I led product and technology at **Welcome Account**, working on payments and AI-assisted KYC in a regulated environment.
+
+That background shapes how I build: understand the user's job, integrate with the systems already in place, and make it clear what happens when something fails. I work with the team using the system, not only the team commissioning it.
+
+## Public engineering work
+
+**Start here: [Production AI Systems Architecture](https://hghalebi.github.io/production-ai-systems-architecture/)** — my book on evaluation, typed workflows, human oversight, observability, security and AI economics.
+
+| Project | What you can inspect |
+| --- | --- |
+| [**Reliable AI Agents**](https://github.com/hghalebi/reliable-ai-agents) | Book and Rust / Rig / Postgres reference implementation covering durable jobs, explicit state, recovery and operational gates. |
+| [**LLM Observability Guide**](https://github.com/hghalebi/rust-llm-observability-guide) | OpenTelemetry + SigNoz guide and examples for tracing model calls, tool execution and multi-agent workflows. |
+| [**Typed LLM Boundaries**](https://github.com/hghalebi/Practical-tutorial-from-first-schema-to-reliable-LLM-boundaries) | Guide and examples for turning natural-language inputs into typed, validated data before downstream software acts on it. |
+| [**fair-eval**](https://github.com/hghalebi/fair-eval) | Rust audit harness for testing output differences across otherwise equivalent hiring cases with controlled identity-linked cue changes. |
+| [**Agentic Workstation**](https://github.com/hghalebi/agentic-workstation) | Repeatable Ubuntu environments for coding agents, with profiles, health checks, a Rust planning CLI and Nix-based validation. |
+
+These are books, reference implementations and tools, not a list of client deployments. Each repository has its own scope and license.
+
+## Currently building
+
+**[Dayeh](https://dayeh.io/)** — an early-stage, proactive AI parenting companion. Building context-aware support and learning which behaviours genuinely help parents. TypeScript + Mastra.
+
+**Agent delivery infrastructure** — developing a Rust CI/CD optimizer around bounded coding-agent changes, verification gates and recoverable deployments. The focus: making agent-assisted engineering repeatable, not just fast once.
+
+<details>
+<summary><strong>Stack &amp; engineering approach</strong></summary>
+
+<br />
+
+| Layer | Tools and practices |
+| --- | --- |
+| **Application &amp; agents** | Rust · TypeScript · Python · Rig · Mastra · RAG · Tool calling · Structured outputs |
+| **Backend &amp; state** | Axum · Tokio · PostgreSQL · Background workers · Idempotency · Durable jobs |
+| **Operations** | OpenTelemetry · SigNoz · Sentry · Docker · NixOS · GitHub Actions |
+| **Controls** | Evaluation suites · Scoped permissions · Human review · Audit events · Recovery paths |
+
+Rust is a strong part of my toolkit, not a requirement for your project. I work with the stack your product and team need.
+
+</details>
+
+<details>
+<summary><strong>Teaching &amp; learning in public</strong></summary>
+
+<br />
+
+[**Agentic Rust: Core Labs 101**](https://github.com/hghalebi/agentic-rust-core-labs-101) — hands-on labs covering tools, policies, memory, RAG and durable agent runs.
+
+[**AI Reading Club**](https://github.com/hghalebi/ai-reading-club) — foundational AI papers and the engineering questions behind them.
+
+[**rust-ml.com**](https://rust-ml.com/) · [**Category Theory for Tiny ML in Rust**](https://github.com/hghalebi/category_theory_transformer_rs) — learning machine learning through small, inspectable systems.
+
+</details>
+
+---
+
+## Have a workflow that should work better?
+
+Send me **what happens today, what is blocked, and what a useful result would look like**. Add your timeline. No pitch deck required.
+
+**[Discuss a project by email](mailto:hg@remolab.fr?subject=AI%20engineering%20project)** · **[Message me on LinkedIn](https://www.linkedin.com/in/hamze/)**
+
+<sub>The model can be probabilistic. The system still needs clear responsibilities.</sub>
