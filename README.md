@@ -24,11 +24,17 @@
 
 <p>Paris · Remote collaboration · English / French · Consulting &amp; embedded delivery</p>
 
-<img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;size=17&amp;duration=3000&amp;pause=1400&amp;color=FF6B00&amp;center=true&amp;vCenter=true&amp;width=760&amp;height=32&amp;lines=From+first+workflow+to+production.;Useful+to+users.+Understandable+to+operators.;Evaluated.+Observable.+Recoverable."
-  width="760"
-  alt="From first workflow to production. Evaluated, observable, recoverable."
-/>
+<a href="https://github.com/hghalebi/reliable-ai-agents">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/production-ai-static.svg" />
+    <img
+      src="assets/production-ai.svg"
+      width="960"
+      alt="Production AI workflow: typed inputs, durable jobs, scoped tools, timeout recovery, validation and observability."
+    />
+  </picture>
+</a>
+<p><sub>Architecture illustration, not live telemetry. <a href="assets/production-ai-static.svg">View the static version.</a></sub></p>
 
 </div>
 
