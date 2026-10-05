@@ -72,10 +72,11 @@ These are books, reference implementations and tools, not a list of client deplo
 
 ## Current technology focus
 
-AI is moving from chat interfaces toward systems that can take useful action. My current work explores how to make that shift dependable:
+I am interested in the shift from chat interfaces to useful, tool-using systems—and in making those systems dependable, inspectable and useful to the people they serve:
 
-- **Agentic engineering:** bounded coding-agent changes, verification gates and recoverable deployments in the delivery workflow.
-- **Production agents:** durable, tool-using workflows with typed boundaries, evaluation, human oversight and operational visibility.
+- **Agentic software engineering:** bounded coding-agent changes, executable verification gates and recoverable delivery workflows—not code generation without review.
+- **Production agents:** durable, tool-using workflows with typed boundaries, policy controls, evaluation and operational visibility.
+- **Local-model workflows:** hands-on experiments with Ollama-powered agent labs, alongside the practical trade-offs of running models close to the developer.
 - **Human-centered AI:** context-aware support, with product learning grounded in whether it genuinely helps the people using it.
 
 ## Currently building
@@ -105,9 +106,11 @@ Rust is a strong part of my toolkit, not a requirement for your project. I work 
 
 <br />
 
-[**Agentic Rust: Core Labs 101**](https://github.com/hghalebi/agentic-rust-core-labs-101) — hands-on labs covering tools, policies, memory, RAG and durable agent runs.
+[**Agentic Rust: Core Labs 101**](https://github.com/hghalebi/agentic-rust-core-labs-101) — 20 hands-on labs for building Rust agents, from typed outputs and tool policies to local models, RAG and durable runs.
 
 [**AI Reading Club**](https://github.com/hghalebi/ai-reading-club) — foundational AI papers and the engineering questions behind them.
+
+[**Phippy Gaming Workshop**](https://github.com/hghalebi/Phippy-Gaming-Workshop) — an AI-assisted game-building starter workshop for young and first-time creators, taught at AI Engineer, AGNTCon and CNCF Kids Day.
 
 [**rust-ml.com**](https://rust-ml.com/) · [**Category Theory for Tiny ML in Rust**](https://github.com/hghalebi/category_theory_transformer_rs) — learning machine learning through small, inspectable systems.
 
