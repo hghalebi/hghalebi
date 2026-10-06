@@ -65,6 +65,7 @@ That background shapes how I build: understand the user's job, integrate with th
 | [**Reliable AI Agents**](https://github.com/hghalebi/reliable-ai-agents) | Book and Rust / Rig / Postgres reference implementation covering durable jobs, explicit state, recovery and operational gates. |
 | [**LLM Observability Guide**](https://github.com/hghalebi/rust-llm-observability-guide) | OpenTelemetry + SigNoz guide and examples for tracing model calls, tool execution and multi-agent workflows. |
 | [**Typed LLM Boundaries**](https://github.com/hghalebi/Practical-tutorial-from-first-schema-to-reliable-LLM-boundaries) | Guide and examples for turning natural-language inputs into typed, validated data before downstream software acts on it. |
+| [**AIMX**](https://github.com/hghalebi/AIMX) | Safe Rust bindings for Apple's on-device Foundation Models, with typed sessions, structured outputs and tool-call results. |
 | [**fair-eval**](https://github.com/hghalebi/fair-eval) | Rust audit harness for testing output differences across otherwise equivalent hiring cases with controlled identity-linked cue changes. |
 | [**Agentic Workstation**](https://github.com/hghalebi/agentic-workstation) | Repeatable Ubuntu environments for coding agents, with profiles, health checks, a Rust planning CLI and Nix-based validation. |
 
@@ -76,14 +77,14 @@ I am interested in the shift from chat interfaces to useful, tool-using systems�
 
 - **Agentic software engineering:** bounded coding-agent changes, executable verification gates and recoverable delivery workflows—not code generation without review.
 - **Production agents:** durable, tool-using workflows with typed boundaries, policy controls, evaluation and operational visibility.
-- **Local-model workflows:** hands-on experiments with Ollama-powered agent labs, alongside the practical trade-offs of running models close to the developer.
+- **On-device and local inference:** exploring the trade-offs of running models close to the user—from Ollama-powered agent labs to [safe Rust bindings for Apple's on-device models](https://github.com/hghalebi/AIMX).
 - **Human-centered AI:** context-aware support, with product learning grounded in whether it genuinely helps the people using it.
 
 ## Currently building
 
 **[Dayeh](https://dayeh.io/)** — an early-stage, proactive AI parenting companion. Building context-aware support and learning which behaviours genuinely help parents. TypeScript + Mastra.
 
-**Agent delivery infrastructure** — developing a Rust CI/CD optimizer around bounded coding-agent changes, verification gates and recoverable deployments. The focus: making agent-assisted engineering repeatable, not just fast once.
+**Agent delivery infrastructure** — developing a Rust execution graph for coding agents, with typed evidence, assurance and path optimization. The focus: making agent-assisted engineering reviewable and recoverable, not just fast once.
 
 <details>
 <summary><strong>Stack &amp; engineering approach</strong></summary>
