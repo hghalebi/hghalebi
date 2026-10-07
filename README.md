@@ -63,6 +63,7 @@ That background shapes how I build: understand the user's job, integrate with th
 | Project | What you can inspect |
 | --- | --- |
 | [**Reliable AI Agents**](https://github.com/hghalebi/reliable-ai-agents) | Book and Rust / Rig / Postgres reference implementation covering durable jobs, explicit state, recovery and operational gates. |
+| [**RigScribe**](https://github.com/hghalebi/rigscribe) | Rust / Rig example exploring agent-led prompt refinement and reusable, cached prompt artifacts as part of an Agentic AI in Rust series. |
 | [**LLM Observability Guide**](https://github.com/hghalebi/rust-llm-observability-guide) | OpenTelemetry + SigNoz guide and examples for tracing model calls, tool execution and multi-agent workflows. |
 | [**Typed LLM Boundaries**](https://github.com/hghalebi/Practical-tutorial-from-first-schema-to-reliable-LLM-boundaries) | Guide and examples for turning natural-language inputs into typed, validated data before downstream software acts on it. |
 | [**AIMX**](https://github.com/hghalebi/AIMX) | Safe Rust bindings for Apple's on-device Foundation Models, with typed sessions, structured outputs and tool-call results. |
@@ -77,6 +78,7 @@ I am interested in the shift from chat interfaces to useful, tool-using systems�
 
 - **Agentic software engineering:** bounded coding-agent changes, executable verification gates and recoverable delivery workflows—not code generation without review.
 - **Production agents:** durable, tool-using workflows with typed boundaries, policy controls, evaluation and operational visibility.
+- **Prompts as code:** exploring agent-led refinement of instructions into clearer, reusable system prompts with [RigScribe](https://github.com/hghalebi/rigscribe), a Rust / Rig example.
 - **On-device and local inference:** exploring the trade-offs of running models close to the user—from Ollama-powered agent labs to [safe Rust bindings for Apple's on-device models](https://github.com/hghalebi/AIMX).
 - **Human-centered AI:** context-aware support, with product learning grounded in whether it genuinely helps the people using it.
 
