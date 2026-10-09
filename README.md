@@ -67,6 +67,7 @@ That background shapes how I build: understand the user's job, integrate with th
 | [**Rust Mistral Fine-Tuning Benchmark**](https://github.com/hghalebi/rust-mistral-finetune-benchmark) | Reproducible local small-model fine-tuning comparison across Candle, Burn, PyTorch and MLX, measuring quality, training time and inference latency. |
 | [**RigScribe**](https://github.com/hghalebi/rigscribe) | Rust / Rig example exploring agent-led prompt refinement and reusable, cached prompt artifacts as part of an Agentic AI in Rust series. |
 | [**LLM Observability Guide**](https://github.com/hghalebi/rust-llm-observability-guide) | OpenTelemetry + SigNoz guide and examples for tracing model calls, tool execution and multi-agent workflows. |
+| [**Graph Insights**](https://github.com/hghalebi/graph-insigdes) | Read-only Neo4j graph profiling of coding-agent sessions, tool paths and evidence-derived outcomes. |
 | [**Typed LLM Boundaries**](https://github.com/hghalebi/Practical-tutorial-from-first-schema-to-reliable-LLM-boundaries) | Guide and examples for turning natural-language inputs into typed, validated data before downstream software acts on it. |
 | [**AIMX**](https://github.com/hghalebi/AIMX) | Safe Rust bindings for Apple's on-device Foundation Models, with typed sessions, structured outputs and tool-call results. |
 | [**fair-eval**](https://github.com/hghalebi/fair-eval) | Rust audit harness for testing output differences across otherwise equivalent hiring cases with controlled identity-linked cue changes. |
@@ -80,6 +81,7 @@ I am interested in the shift from chat interfaces to useful, tool-using systemsâ
 
 - **Agentic software engineering:** bounded coding-agent changes, executable verification gates and recoverable delivery workflowsâ€”not code generation without review.
 - **Production agents:** durable, tool-using workflows with typed boundaries, policy controls, evaluation and operational visibility.
+- **Agent harness observability:** tracing coding-agent sessions, tool paths and evidence-backed outcomes through read-only graph analysis with [Graph Insights](https://github.com/hghalebi/graph-insigdes).
 - **Multimodal coding agents:** exploring how visual feedback, synthetic data and geometric checks can make CAD-editing agents more reliable with [VibeCAD](https://github.com/hghalebi/vibecad).
 - **Small-model adaptation:** benchmarking local fine-tuning backends and their quality, speed and latency trade-offs in the [Rust Mistral fine-tuning benchmark](https://github.com/hghalebi/rust-mistral-finetune-benchmark).
 - **Prompts as code:** exploring agent-led refinement of instructions into clearer, reusable system prompts with [RigScribe](https://github.com/hghalebi/rigscribe), a Rust / Rig example.
