@@ -63,6 +63,8 @@ That background shapes how I build: understand the user's job, integrate with th
 | Project | What you can inspect |
 | --- | --- |
 | [**Reliable AI Agents**](https://github.com/hghalebi/reliable-ai-agents) | Book and Rust / Rig / Postgres reference implementation covering durable jobs, explicit state, recovery and operational gates. |
+| [**HarnessGraph**](https://github.com/hghalebi/harness-graph) | Rust pipeline that turns coding-agent execution records into an evidence-linked graph, with deterministic assurance and bounded model interpretation. |
+| [**OpenClaw Growth Operator**](https://github.com/hghalebi/openclaw-growth-operator) | Rust / PostgreSQL engineering fixture for durable, evidence-scoped agent workflows. Production integrations and recurring work remain gated; it makes no measured growth claims. |
 | [**VibeCAD**](https://github.com/hghalebi/vibecad) | Synthetic-data workflows for CAD-coding agents, including multimodal designer–coder loops with visual critique and geometric checks. |
 | [**Rust Mistral Fine-Tuning Benchmark**](https://github.com/hghalebi/rust-mistral-finetune-benchmark) | Reproducible local small-model fine-tuning comparison across Candle, Burn, PyTorch and MLX, measuring quality, training time and inference latency. |
 | [**RigScribe**](https://github.com/hghalebi/rigscribe) | Rust / Rig example exploring agent-led prompt refinement and reusable, cached prompt artifacts as part of an Agentic AI in Rust series. |
@@ -79,6 +81,8 @@ These are books, reference implementations and tools, not a list of client deplo
 I am interested in the shift from chat interfaces to useful, tool-using systems—and in making those systems dependable, inspectable and useful to the people they serve:
 
 - **Agentic software engineering:** bounded coding-agent changes, executable verification gates and recoverable delivery workflows—not code generation without review.
+- **Agent evidence and assurance:** turning coding-agent execution records into typed, traceable evidence and risk signals with [HarnessGraph](https://github.com/hghalebi/harness-graph).
+- **Agent ecosystems and learning loops:** exploring durable, evidence-scoped OpenClaw workflows in the [Growth Operator](https://github.com/hghalebi/openclaw-growth-operator). This is fixture-based engineering work, not a production deployment or measured growth result.
 - **Production agents:** durable, tool-using workflows with typed boundaries, policy controls, evaluation and operational visibility.
 - **Multimodal coding agents:** exploring how visual feedback, synthetic data and geometric checks can make CAD-editing agents more reliable with [VibeCAD](https://github.com/hghalebi/vibecad).
 - **Small-model adaptation:** benchmarking local fine-tuning backends and their quality, speed and latency trade-offs in the [Rust Mistral fine-tuning benchmark](https://github.com/hghalebi/rust-mistral-finetune-benchmark).
