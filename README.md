@@ -24,6 +24,13 @@
 
 <p>Paris · Remote collaboration · English / French · Consulting &amp; embedded delivery</p>
 
+<p><strong>Current explorations:</strong>
+  <a href="https://github.com/hghalebi/agentic-workstation">Agentic engineering</a> ·
+  <a href="https://github.com/hghalebi/vibecad">Multimodal AI</a> ·
+  <a href="https://github.com/hghalebi/AIMX">On-device models</a> ·
+  <a href="https://github.com/hghalebi/reliable-ai-agents">Reliable agent systems</a>
+</p>
+
 <a href="https://github.com/hghalebi/reliable-ai-agents">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/production-ai-static.svg" />
