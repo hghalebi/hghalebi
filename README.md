@@ -71,6 +71,7 @@ That background shapes how I build: understand the user's job, integrate with th
 | [**AIMX**](https://github.com/hghalebi/AIMX) | Safe Rust bindings for Apple's on-device Foundation Models, with typed sessions, structured outputs and tool-call results. |
 | [**fair-eval**](https://github.com/hghalebi/fair-eval) | Rust audit harness for testing output differences across otherwise equivalent hiring cases with controlled identity-linked cue changes. |
 | [**Agentic Workstation**](https://github.com/hghalebi/agentic-workstation) | Repeatable Ubuntu environments for coding agents, with profiles, health checks, a Rust planning CLI and Nix-based validation. |
+| [**Ferrify**](https://github.com/hghalebi/Ferrify) | Early-stage Rust runtime for governed software-change workflows, with explicit policy, bounded planning, verification receipts and evidence-backed reports. |
 
 These are books, reference implementations and tools, not a list of client deployments. Each repository has its own scope and license.
 
@@ -78,7 +79,7 @@ These are books, reference implementations and tools, not a list of client deplo
 
 I am interested in the shift from chat interfaces to useful, tool-using systems—and in making those systems dependable, inspectable and useful to the people they serve:
 
-- **Agentic software engineering:** bounded coding-agent changes, executable verification gates and recoverable delivery workflows—not code generation without review.
+- **Governed coding agents:** exploring explicit policy, bounded change plans, verification receipts and evidence-backed reports with [Ferrify](https://github.com/hghalebi/Ferrify)—making agent-assisted software changes reviewable, not just fast.
 - **Production agents:** durable, tool-using workflows with typed boundaries, policy controls, evaluation and operational visibility.
 - **Multimodal coding agents:** exploring how visual feedback, synthetic data and geometric checks can make CAD-editing agents more reliable with [VibeCAD](https://github.com/hghalebi/vibecad).
 - **Small-model adaptation:** benchmarking local fine-tuning backends and their quality, speed and latency trade-offs in the [Rust Mistral fine-tuning benchmark](https://github.com/hghalebi/rust-mistral-finetune-benchmark).
